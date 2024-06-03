@@ -1,0 +1,242 @@
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav a {
+    color: white; 
+    text-decoration: none; 
+    margin-right: 10px; 
+}
+
+.header-buttons button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px; /* Kisebb padding */
+    border: none;
+    cursor: pointer;
+    margin-right: 5px; /* Kisebb margó a gombok között */
+    margin-bottom: 5px; /* Kisebb margó az alatta lévő elemektől */
+}
+
+.header-buttons button:hover {
+    background-color: #45a049;
+    transition: 0.5s ease;
+}
+
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="number"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #ddd;
+}
+
+ button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+    transition: 0.5s ease;
+} 
+#frissit{
+  height: 35px;
+  width: 80px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* margin-top: -10px; */
+}
+#frissit:hover{
+  background-color: #45a049;
+  transition: 0.5s ease;
+}
+#torles{
+  height: 35px;
+  width: 80px;
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  /* margin-top: -10px; */
+}
+#torles:hover{
+  background-color: darkred;
+  transition: 0.5s ease;
+}
+
+
+.st_table_header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: rgb(27, 30, 36);
+  color: rgb(220, 220, 220);
+  }
+
+  .st_table_header h2 {
+  font-weight: 400;
+  margin: 0 20px;
+  padding: 20px 0 0;
+  }
+
+  .st_table_header .st_row {
+  color: rgba(220, 220, 220, 0.7);
+  }
+
+  .st_table_header .st_column {}
+
+  .st_viewport {
+    max-height: 500px;
+    overflow: auto;
+    }
+
+    [data-table_id="0"] {
+    background-color: rgb(62, 148, 236);
+    }
+
+    .st_table_header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgb(27, 30, 36);
+    color: rgb(220, 220, 220);
+    }
+
+    .st_table_header h2 {
+    font-weight: 400;
+    margin: 0 20px;
+    padding: 20px 0 0;
+    }
+
+    .st_table_header .st_row {
+    color: rgba(220, 220, 220, 0.7);
+    }
+
+    .st_table_header .st_column {}
+
+    .st_table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    }
+
+    .st_table thead {
+    background-color: rgb(27, 30, 36);
+    color: rgb(220, 220, 220);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.903);
+    }
+
+    .st_table thead th {
+      position: relative;
+      text-align: left; /* Balra igazítás */
+
+    }
+
+    .st_table thead th:not(:first-child)::before {
+      content: '';
+      position: absolute;
+      left: -1px;
+      top: 0;
+      height: 100%;
+      width: 1px;
+      background-color: rgba(0, 0, 0, 0.904); 
+    }
+
+    .st_table th, .st_table td {
+    padding: 10px 20px;
+    border-right: 1px solid rgba(220, 220, 220, 0.2);
+    }
+
+    .st_table tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .logo {
+      font-size: 24px;
+      font-weight: bold;
+  }
+  
+  .nav-links {
+      display: flex;
+      align-items: center;
+  }
+  
+  .nav-links a, .nav-links button {
+      color: white; 
+      text-decoration: none; 
+      margin-right: 10px; 
+      padding: 8px 16px;
+      border-radius: 4px;
+  }
+  
+  .nav-links a:hover, .nav-links button:hover {
+    background-color: #0aafc1;
+    transition: background-color 0.3s;
+}
+  
+  button {
+    background-color: #010004;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #180651;
+}
+
+a {
+    background-color: #180651; /* Kék szín */
+    border: none;
+    cursor: pointer;
+}
+  
+  a:hover {
+      background-color: #180651;
+  }
+  
+  .st_viewport {
+      max-height: 500px;
+      overflow: auto;
+      /* Add whatever styles you need for the main content */
+  }
+  

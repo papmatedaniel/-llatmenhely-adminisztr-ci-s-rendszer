@@ -1,0 +1,1 @@
+<!-- Környezeti tanulmány az örökbe fogadórol -->
